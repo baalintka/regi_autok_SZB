@@ -82,6 +82,9 @@ tr:nth-child(even) {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
+.erdekessegfelsorolas ol li{
+  padding-top: 10px;
+}
 .tabla{
   padding: 10px ;
 }

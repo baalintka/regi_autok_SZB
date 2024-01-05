@@ -1,0 +1,53 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #03943a;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ header{
+    color: #03943a;
+ }
+ .karlhenry{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+ .feltalalo{
+    width: 285px;
+    border: solid gray 1px;
+    padding: 5px;
+    
+    border-radius: 2%;    
+ }
+
+h4{
+    color: #03943a;
+}
+img{
+    border-radius: 2%;
+}
+p{
+    padding-right: 3px;
+    padding-left: 3px;
+}
+.karlhenry img{
+    text-align: center;
+    margin: auto;
+    border: solid gray 1px;
+    padding: 2px;
+    border-radius: 2%;
+ }

@@ -51,3 +51,17 @@ p{
     padding: 2px;
     border-radius: 2%;
  }
+ footer{
+    text-align: center;
+    color: #03943a;
+ }
+ .erdekes{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+ }
+ .erdekessegfelsorolas{
+   padding: 10px;
+ }
+ .autok{
+   padding-top: 10px;
+ }

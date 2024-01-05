@@ -25,6 +25,7 @@ ul {
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
  }
  .feltalalo{
     width: 285px;
@@ -86,4 +87,11 @@ tr:nth-child(even) {
 }
 .forras{
   margin-top: 10px;
+}
+@media only screen and (max-width: 700px) {
+  .karlhenry{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
 }

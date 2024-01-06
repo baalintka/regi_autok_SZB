@@ -30,9 +30,9 @@ ul {
  .feltalalo{
     width: 285px;
     border: solid gray 1px;
-    padding: 5px;
-    
-    border-radius: 2%;    
+    border-radius: 2%; 
+    text-align: center;   
+    padding: 7px;
  }
 
 h4{
@@ -49,8 +49,19 @@ p{
     text-align: center;
     margin: auto;
     border: solid gray 1px;
-    padding: 2px;
+    padding: 3px;
+    
     border-radius: 2%;
+ }
+ .autokindex img{
+  padding: 3px;
+ }
+ .autok img{
+  padding: 3px;
+  border: solid gray 1px;
+ }
+ .feltalalo p{
+  text-align: left;
  }
  footer{
     text-align: center;
@@ -64,7 +75,8 @@ p{
    padding: 10px;
  }
  .autok{
-   padding-top: 10px;
+   margin-top: 10px;
+   
  }
  table{
   border-collapse: collapse;
@@ -95,6 +107,17 @@ tr:nth-child(even) {
   .karlhenry{
     display: grid;
     grid-template-columns: 1fr;
+    
   }
-  
+  .tablazaat{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .erdekes{
+    display: grid;
+    grid-template-columns:1fr;
+  }
+  .autok{
+    text-align: center;
+  }
 }
